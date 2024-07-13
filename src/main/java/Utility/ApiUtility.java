@@ -27,7 +27,6 @@ public class ApiUtility {
 		    e.printStackTrace();
 		}
 		return  prop.getProperty(value);
-		
 	}
 	
 	public static String ReadXLTestData(String key) throws InvalidFormatException, IOException {
